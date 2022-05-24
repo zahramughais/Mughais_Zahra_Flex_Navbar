@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+h1 {
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+.nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+.active {
+    color: #fff;
+}
+.btn {
+    color: #fff;
+    background-color: rgb(72, 136, 158);
+    font-size: 1rem;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+}
